@@ -1,0 +1,14 @@
+statsd:
+  hostname: statsd.server.ru
+  port: 8125
+  prefix: mqtt
+mqtt:
+  hostname: mqtt.server.ru
+  port: 1883
+  keepalive: 60
+  username: user
+  password: pass
+topics:
+  - mqtt_topic: homeassistant/home/#
+  - mqtt_topic: homeassistant/sensor/#
+  - mqtt_topic: homeassistant/dacha/#
